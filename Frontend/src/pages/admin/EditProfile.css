@@ -1,0 +1,67 @@
+/* EditProfile.css */
+
+.edit-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.profile-form-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.profile-form-box h2 {
+  text-align: center;
+  color: #2d2d2d;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.profile-form-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-form-box input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 8px;
+  outline: none;
+}
+
+.profile-form-box input:focus {
+  background-color: #eaeaea;
+}
+
+.profile-form-box button {
+  background-color: #7b2ff7;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.profile-form-box button:hover {
+  background-color: #6828d8;
+}
+
+.success {
+  color: green;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}

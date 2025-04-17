@@ -1,2 +1,4 @@
+# Ignore node_modules everywhere
+node_modules/
 Frontend/node_modules/
 Backend/node_modules/

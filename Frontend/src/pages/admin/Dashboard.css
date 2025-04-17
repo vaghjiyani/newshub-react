@@ -1,0 +1,134 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f6f7;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 30px;
+    position: relative;
+  }
+  
+  .table-container {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: auto;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f8f8f8;
+  }
+  
+  th, td {
+    padding: 14px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .action-icons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .edit-btn {
+    color: #2266cc;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: #a93226;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add User Button */
+  .add-user-btn {
+    background-color: #2c2f48;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Add User Form */
+  .add-user-form {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .add-user-form h3 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .add-user-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-buttons button[type="submit"] {
+    background-color: #2c2f48;
+    color: white;
+  }
+  
+  .form-buttons button[type="button"] {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  /* Error Message */
+  .error-message {
+    background-color: #fee2e2;
+    color: #dc2626;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  /* Loading State */
+  .loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+  }
+  

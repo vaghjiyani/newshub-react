@@ -1,0 +1,110 @@
+.add-user-container {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.add-user-header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.back-btn {
+  background-color: #f3f4f6;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.back-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.error-msg,
+.success-msg {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.error-msg {
+  background-color: #ffe5e5;
+  border: 1px solid #ffcccc;
+  color: #b00020;
+}
+
+.success-msg {
+  background-color: #e6ffed;
+  border: 1px solid #a6f1c6;
+  color: #046c4e;
+}
+
+.add-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-actions button:hover {
+  background-color: #4338ca;
+}
+
+.form-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
